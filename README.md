@@ -4,10 +4,10 @@
 ### This project aims to gather all the knowledge that has been acquired and put them into operation in a Mortal Kombat themed website where we will talk mainly about Mortal Kombat:
 ---
 ## Table of Contents 📋
-1. [General Info]()
-2. [Objetives](#Objetives)
-3. [Design Inspiration](#Design Inspiration)
-4. [FAQs](#faqs)
+1. General Info
+2. Objetives
+3. Design Inspiration
+4. FAQs
 
 ---
 
