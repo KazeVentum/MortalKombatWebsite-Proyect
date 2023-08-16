@@ -23,4 +23,4 @@ A list of technologies used within the project:
 
 ## Inspiration theme 🤠
 -The theme of the project will be about everything related to the video game Mortal Kombat, characters, history, programming, gameplay, opinions and its impact on the history of video games.
-![Scorpion_Logo - MortalKombat](imgsReadme/inspiration.jpg)
+
