@@ -11,7 +11,7 @@
 
 ---
 
-# General Information
+# 1. General Information
 The project is designed to apply the basic knowledge of web development acquired thanks to the trainer Juan Mariño.
 This project has been developed by Cristian Camilo Pardo Hernandez who has adapted the concepts provided by the teacher and will be reflected in this project.
 
