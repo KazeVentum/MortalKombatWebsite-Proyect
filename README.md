@@ -24,3 +24,16 @@ A list of technologies used within the project:
 ## Inspiration theme 🤠
 -The theme of the project will be about everything related to the video game Mortal Kombat, characters, history, programming, gameplay, opinions and its impact on the history of video games.
 
+---
+
+# 2. Objetives
+The following objectives are sought in order to meet the project's goal.
+1. 🏁 Create a design mock-up of what is expected to be built.
+   * ☑️ Design made on the Figma website, [Link here.](https://www.figma.com/file/vyg5Ro8yByCAvCD8usniGO/Mortal-Kombat-WebSite-Design?type=whiteboard&node-id=0%3A1&t=3IxNW59CbqSJalit-1)
+2. 🏁 Add to the HTML file the structure of the information.
+3. 🏁 Add tags that are useful for the semantics of the page.
+4. 🏁 Create 4 pages that will be the body of the project: 
+   * ☑️ Home
+   * Characters
+   * Games
+   * Fatalities.
