@@ -1,1 +1,28 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&family=Poppins:ital,wght@0,300;0,500;1,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    
+    background-color: #000;
+    color: white;
+}
+
+
+div.Superior div.logo h1{
+    color: aqua;
+    text-align: center;
+}
+
+.Liu_Kang{
+    margin:auto, auto;
+    width:100vw;
+    height:100vh;
+
+    }
+
+
+
+
