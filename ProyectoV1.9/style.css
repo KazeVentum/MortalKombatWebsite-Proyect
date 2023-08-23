@@ -11,7 +11,6 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-     
 }
 
 .container {
@@ -24,16 +23,18 @@ body{
         rgba(0,0,0,0.2),
         rgba(0,0,0,1)),
         url(./resources/Header/Tittle.jpg);
-    background-position: top;
+    background-position: auto;
     background-repeat: no-repeat;
     color: aliceblue;   
     background-size: cover;
-    min-height: 70vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
 }
 
-.menu {
+
+
+.menu { /*(0.1.0)*/
     position: absolute;
     top: 0;
     left: 0;
@@ -43,17 +44,19 @@ body{
     justify-content: space-between;
 }
 
-.logo {
+.logo { /*(0.1.0)*/
     color: #fffdfc;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800;
 }
 
+/*Posicion de NavBar*/
 .menu .navbar ul li{
     position: relative;
     float: left;
 }
 
+/*Color de NavBar*/
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
@@ -61,6 +64,26 @@ body{
     display: block;
     font-weight: 600;
 }
+
+/* Iluminar si pasa el mouse encima */
+.menu .navbar ul li a:hover{    /*(0,3,3)*/
+    color: aqua;
+}
+
+.header-content {
+    /*Mortal Kombat Title Style*/
+    font-size: 2rem;
+    background:linear-gradient(180deg,#8d8888,#ffffff);
+    /*Quitar color de la fuente*/
+    -webkit-text-fill-color: transparent;
+    /*Colocar el fondo como color de la fuente*/
+    -webkit-background-clip: text;
+
+    position: relative;
+    top: 150px;
+    
+}
+
 
 
 
