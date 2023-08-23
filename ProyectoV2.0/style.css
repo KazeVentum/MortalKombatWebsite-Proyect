@@ -72,7 +72,7 @@ body{
 
 .header-content {
     /*Mortal Kombat Title Style*/
-    font-size: 2rem;
+    font-size: 3rem;
     background:linear-gradient(180deg,#8d8888,#ffffff);
     /*Quitar color de la fuente*/
     -webkit-text-fill-color: transparent;
@@ -82,6 +82,33 @@ body{
     position: relative;
     top: 150px;
     
+}
+
+.Middle .Label1 {
+    padding: 150px 0;
+    position: relative;
+    text-align: center;
+}
+
+.Middle h3 {
+    font-size: 35px;
+    line-height: 70px;
+    color: #323232;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Middle p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid aqua;
 }
 
 
