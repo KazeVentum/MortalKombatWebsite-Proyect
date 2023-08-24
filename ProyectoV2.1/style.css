@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+ /* HEADER CONTENT CSS*/
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -31,7 +31,6 @@ body{
     display: flex;
     align-items: center;
 }
-
 
 
 .menu { /*(0.1.0)*/
@@ -74,22 +73,22 @@ body{
     /*Mortal Kombat Title Style*/
     font-size: 3rem;
     background:linear-gradient(180deg,#8d8888,#ffffff);
+
     /*Quitar color de la fuente*/
     -webkit-text-fill-color: transparent;
+    
     /*Colocar el fondo como color de la fuente*/
     -webkit-background-clip: text;
 
+    /*Position title*/
     position: relative;
     top: 150px;
     
 }
 
-.Middle .Label1 {
-    padding: 150px 0;
-    position: relative;
-    text-align: center;
-}
 
+/* MIDDLE CONTENT CSS*/
+/*Titulo 2 "Mortal kombat!*/
 .Middle h3 {
     font-size: 35px;
     line-height: 70px;
@@ -98,19 +97,47 @@ body{
     padding-top: 15px;
     margin-bottom: 15px;
 }
-
-.Middle p {
-    font-size: 20px;
+.Middle p { /*Parrafo de Mortal Kombat*/
+    font-size: 17px;
     text-align: center;
 }
 
-.btn-1 {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid aqua;
+/*Style Group margin */
+.Middle-group{
+    width: 100%;
+    max-width: 1600px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/*Style Cards*/
+.Middle-group .Cards {
+    padding-top: 5px;
+    width: 350px;
+    height: 700px;
+    border-radius: 55px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow:  hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
 }
 
+.Middle-group .Cards:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+} 
+
+.Middle-group .Cards img {
+        width: 350px;
+        height: 400px;
+        
+}
+
+.Middle-group .Cards h4{
+    font-weight: 600px;
+}
 
 
 
