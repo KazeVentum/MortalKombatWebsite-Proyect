@@ -102,6 +102,10 @@ body{
     text-align: center;
 }
 
+.Middle {
+    background: linear-gradient(180deg, #ffffff,rgb(249, 255, 225));
+}
+
 /*Style Group margin */
 .Middle-group{
     width: 100%;
