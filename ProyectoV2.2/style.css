@@ -46,7 +46,8 @@ body{
 .logo { /*(0.1.0)*/
     color: #fffdfc;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 600;
+    position: relative;
 }
 
 /*Posicion de NavBar*/
@@ -67,6 +68,7 @@ body{
 /* Iluminar si pasa el mouse encima */
 .menu .navbar ul li a:hover{    /*(0,3,3)*/
     color: aqua;
+    font-size: 19px;
 }
 
 .header-content {
@@ -88,7 +90,7 @@ body{
 
 
 /* MIDDLE CONTENT CSS*/
-/*Titulo 2 "Mortal kombat!*/
+/*Titulo 2 "Conoce sobre Mortal kombat!*/
 .Middle h3 {
     font-size: 35px;
     line-height: 70px;
@@ -110,7 +112,7 @@ body{
 .Middle-group{
     width: 100%;
     max-width: 1600px;
-    height: 450px;
+    height: 550px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -127,6 +129,7 @@ body{
     text-align: center;
     transition: all 0.25s;
     padding-top: 5px;
+    background-color: #fffdfc;
 }
 
 .Middle-group .Cards:hover {
@@ -147,11 +150,6 @@ body{
     color: rgb(215, 255, 255);
 }
 
-/*Funcion de Margin para aplicarse en los Divs*/
-.margin{
-    margin-top: 200px;
-}
-
 .btn-1 {
     color: rgb(46, 46, 46);
     font-size: 20px;
@@ -160,6 +158,28 @@ body{
 .btn-1:hover {
     color: blue;
 }
+
+/* BOTTOM CONTENT CSS*/
+
+#Subtitle-Kronology {
+    font-size: 40px;
+    line-height: 70px;
+    color: #434343;
+    text-align: center;
+    padding-top: 8rem;
+    margin-bottom: 60px;
+    
+    background:linear-gradient(180deg,#040404,#ffcc01d4);
+
+    /*Quitar color de la fuente*/
+    -webkit-text-fill-color: transparent;
+    
+    /*Colocar el fondo como color de la fuente*/
+    -webkit-background-clip: text;
+
+
+}
+
 
 
 
