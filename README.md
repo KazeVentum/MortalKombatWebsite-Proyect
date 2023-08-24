@@ -34,6 +34,12 @@ The following objectives are sought in order to meet the project's goal.
 3. 🏁 Add tags that are useful for the semantics of the page.
 4. 🏁 Create 4 pages that will be the body of the project: 
    * ☑️ Home
-   * Characters
+   * ☑️Characters
    * Games
    * Fatalities.
+---
+
+## Design Inspiration
+My design was inspired by modern web pages with a color palette similar to that of the official Mortal Kombat site.
+![Screenshot from 2023-08-24 06-23-37](https://github.com/KazeVentum/MortalKombatWebsite-Proyect/assets/132288586/6e256a39-7032-4421-973a-2f09bc21c368)
+
