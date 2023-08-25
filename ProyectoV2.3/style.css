@@ -222,6 +222,29 @@ body{
     overflow: hidden;
 }
 
+.Windows_info {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #1f3d4738;
+    border: 15px;
+    backdrop-filter: blur(3px);
+    color: #a8eeff;
+    padding: 35px;
+}
+
+.Windows_title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Windows_txt {
+    text-transform: capitalize;
+}
+
 
 
 
