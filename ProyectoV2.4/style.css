@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #323232;
+    background:linear-gradient(180deg,#000000,#312d2d);
 }
 
 /* HEADER CONTENT CSS*/
@@ -187,7 +187,7 @@ body{
     margin-bottom: 60px;
 }
 
-
+/*MORTAL KOMBAT WINDOW SECTION*/
 
  /*Color de Mortal Kombat Container */
 .Mortal-Kombat-History{
@@ -195,7 +195,6 @@ body{
 }
 
 /*Mortal Kombat Window Template */
-
 .Windows-group {
     width: 100%;
     max-width: 1600px;
@@ -222,7 +221,7 @@ body{
     object-fit: cover;
     overflow: hidden;
 }
-
+/*Info Windows*/
 .Windows_info {
     width: 100%;
     height: 100%;
@@ -254,7 +253,7 @@ body{
     margin: 40px, 0;
     font-weight: 400px;
 }
-
+/*Transicion de volver con hover*/
 .window_mk:hover .Windows_info{
     right: 0;
 }
