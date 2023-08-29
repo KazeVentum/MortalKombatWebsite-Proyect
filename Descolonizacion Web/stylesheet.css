@@ -1,0 +1,16 @@
+header{
+    
+}
+
+#navbarNav{
+    justify-content: end;
+}
+
+.nav-item{
+    padding-right: 50px;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+
+}
