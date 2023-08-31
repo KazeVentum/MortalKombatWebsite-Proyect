@@ -192,13 +192,16 @@ body{
  /*Color de Mortal Kombat Container */
 .Mortal-Kombat-History{
     background-color: #312d2d;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 /*Mortal Kombat Window Template */
 .Windows-group {
     width: 100%;
     max-width: 1600px;
-    height: 550px;
+    height: 700px;
+
     display: flex;
     justify-content: center;
     margin: auto;
@@ -262,43 +265,49 @@ body{
 
 /*About Us */
 
+/*Scorpion side*/
 .about-mk {
-    padding-top: 25vh;
+    background-color:  #434343;
+    border-radius: 35px;
+    margin-top: 50px;
     display: flex;
-    background:linear-gradient(180deg,#312d2d,#000);
-    overflow: hidden;
-
+    flex-direction: row;
 }
 
-/*side Photo */
-.Get-Over-Here-title {
-    color: rgb(247, 252, 106);
-    font-size: 55px;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.about-content{
-    background-color: #434343;
-    border-radius: 40px;
+.about-content {
     width: 60%;
 }
 
+.about-content .title {
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: orange;
+}
+
 .Get-Over-Here-photo {
-    padding-top: 25px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 25px;
 }
 
-.Get-Over-Here-img {
+.Get-Over-Here-img{
     width: 100%;
-    height: 100%;
-    border-radius: 60px
 }
 
-.Que-inspiro-Mortal-Kombat {
+
+.Que-inspiro-Mortal-Kombat{
     width: 30%;
 }
+
+.imagen {
+    padding: 25px;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+
 
 /*Responsive Screen*/
 @media screen and (max-width: 800px) {
