@@ -265,39 +265,40 @@ body{
 .about-mk {
     padding-top: 25vh;
     display: flex;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
+    background:linear-gradient(180deg,#312d2d,#000);
+    overflow: hidden;
 
 }
 
-.Get-Over-Here {
-    background-color: yellow;
-    width: 70%;
+/*side Photo */
+.Get-Over-Here-title {
+    color: rgb(247, 252, 106);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about-content{
+    background-color: #434343;
+    border-radius: 40px;
+    width: 60%;
+}
+
+.Get-Over-Here-photo {
+    padding-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Get-Over-Here-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px
 }
 
 .Que-inspiro-Mortal-Kombat {
     width: 30%;
-    background-color: blue;
 }
-
-.Que-inspiro-Mortal-Kombat img{
-    width: 70%;
-}
-
-.Get-Over-Here-photo {
-    border-radius: 35px;
-    background-color: aqua;
-    object-fit: cover;
-}
-
-.Get-Over-Here-img {
-    padding: 15px;
-    width: 100%;
-    height: 100%;
-    border-radius: 35px;
-    
-}
-
 
 /*Responsive Screen*/
 @media screen and (max-width: 800px) {
