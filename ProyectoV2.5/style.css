@@ -313,22 +313,58 @@ body{
 
 
 .Que-inspiro-Mortal-Kombat{
-    width: 30%;
+    width: 37%;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #d99b5d;
 }
 
-.imagen {
-    padding: 25px;
+.Que-inspiro-Mortal-Kombat h3{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fdff7c;
+    text-align: center; 
+    font-size: 1.4rem ;
+}
+.txt-p {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #f6ffc2;
+    
+}
+
+.imagen { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .imagen img {
     width: 100%;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 100% 100%;
+    border-bottom-right-radius: 100% 100%;
+    border-bottom-left-radius: 100% 100%;
+    object-fit: contain;
+}
+
+.subtitle-ed {
+    margin-top: 5px;
+    text-align: center;
 }
 
 
 
 /*Responsive Screen*/
 @media screen and (max-width: 800px) {
-    .Middle-group,.Windows-group{
+    .Middle-group,.Windows-group,.about-mk {
         flex-direction: column;
         align-items: center;
         height: 100%;
