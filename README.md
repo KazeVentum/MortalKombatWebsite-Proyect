@@ -7,7 +7,7 @@
 1. General Info
 2. Objetives
 3. Design Inspiration
-4. FAQs
+4. Conclusion
 
 ---
 
@@ -35,11 +35,16 @@ The following objectives are sought in order to meet the project's goal.
 4. 🏁 Create 4 pages that will be the body of the project: 
    * ☑️ Home
    * ☑️Characters
-   * Games
-   * Fatalities.
+   * ☑️Games
+   * ☑️Fatalities.
 ---
 
-## Design Inspiration
+# 3. Design Inspiration
 My design was inspired by modern web pages with a color palette similar to that of the official Mortal Kombat site.
 ![Screenshot from 2023-08-24 06-23-37](https://github.com/KazeVentum/MortalKombatWebsite-Proyect/assets/132288586/6e256a39-7032-4421-973a-2f09bc21c368)
+
+# 4. Conclusion
+this project was a great help to enhance my knowledge in CSS, HTML.
+
+The adaptability of knowledge and responsive design are important topics for every developer.
 
