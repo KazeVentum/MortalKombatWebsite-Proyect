@@ -19,7 +19,6 @@ This project has been developed by Cristian Camilo Pardo Hernandez who has adapt
 A list of technologies used within the project:
 * [HTML](https://lenguajehtml.com/): Version 5
 * [CSS](https://lenguajecss.com/): Version CSS3​
-* [JavaScript](https://lenguajejs.com/javascript/): Version "ECMAScript 2021"
 
 ## Inspiration theme 🤠
 -The theme of the project will be about everything related to the video game Mortal Kombat, characters, history, programming, gameplay, opinions and its impact on the history of video games.
